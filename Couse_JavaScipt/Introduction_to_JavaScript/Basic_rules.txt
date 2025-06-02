@@ -1,0 +1,14 @@
+Las reglas básicas
+A diferencia de los lenguajes compilados, JavaScript no se traduce a partir del código que escribe una persona en un formato que el navegador pueda comprender. Se envía una secuencia de comandos al navegador. junto con recursos como lenguaje de marcado, imágenes y hojas de estilo, el navegador lo interpreta tal como se escribió: como una secuencia legible de caracteres Unicode, analizadas de izquierda a derecha y de arriba abajo.
+
+Cuando un intérprete de JavaScript recibe una secuencia de comandos, primero realiza Análisis léxico, que analiza la larga cadena de caracteres que conforman una secuencia de comandos y convertirlo en los siguientes elementos de entrada discretos:
+
+- Tokens
+- Caracteres de control de formato
+- Terminadores de línea
+- Comentarios
+- Espacio en blanco (casi siempre significa tabulaciones y espacios).
+
+Los resultados de una secuencia de comandos no se conservarán después de volver a cargarla o salir de la página actual, a menos que incluya instrucciones explícitas para hacerlo en el guion.
+
+En términos generales, las aplicaciones de JavaScript constan de sentencias y expresiones.
